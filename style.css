@@ -1,2 +1,26 @@
+.duck-container {
+  position: relative;
+  display: inline-block;
+}
+#duck-img {
+  :contentReference[oaicite:3]{index=3}
+  :contentReference[oaicite:4]{index=4}
+  display: block;
+}
+.mouth {
+  position: absolute;
+  bottom: 18%;
+  left: 52%;
+  width: 60px;
+  height: 10px;
+  background: orange;
+  :contentReference[oaicite:5]{index=5}
+  visibility: hidden;
+  :contentReference[oaicite:6]{index=6}
+}
+.mouth.open {
+  height: 25px;
+  visibility: visible;
+}
 
  
